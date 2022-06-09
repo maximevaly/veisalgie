@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+a.sources {
+  float: right;
+}
+a:link,
+a:visited,
+a:active {
+  cursor: pointer;
+  color: #939393;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #616161;
+}
+
+h1 {
+  color: #16212c;
+  background-color: transparent;
+  font-family: "TheSerifOffice", georgia, serif;
+  font-size: 48px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+  text-indent: 0px;
+}
+.quotes {
+  text-align: justify;
+}
+
+/**
+ * http://www.juude.info/css-gigantic-quote-marks.php
+ * http://www.evo.uk.com/article/quotation_marks_in_css
+ **/
